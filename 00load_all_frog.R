@@ -26,6 +26,13 @@ if(.Platform$OS.type=="windows"){
   }
 }
 
+#linux
+if(Sys.info()[4]=="d2626utpurucke3.aa.ad.epa.gov"){
+  frog_root<-"~/git/vanmeter_archives_2015/data/"
+  frog_src <- "~/git/vanmeter_archives_2015/"
+  frog_out <- "~/git/vanmeter_archives_2015/output/"
+}
+
 
 #subdirectories
 
